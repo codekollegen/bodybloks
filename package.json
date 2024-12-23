@@ -2,10 +2,7 @@
   "name": "@bodybloks/core",
   "version": "1.0.0",
   "description": "The bodybloks core components and corresponding types",
-  "author": {
-    "name": "Henning Rothe",
-    "email": "henning@codekollegen.de"
-  },
+  "author": "Henning Rothe <henning@codekollegen.de>",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -39,6 +36,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/codekollegen/bodybloks"
-  }
+    "url": "git+https://github.com/codekollegen/bodybloks.git"
+  },
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/codekollegen/bodybloks/issues"
+  },
+  "homepage": "https://github.com/codekollegen/bodybloks#readme"
 }
