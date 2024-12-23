@@ -1,5 +1,5 @@
 {
-  "name": "@bodybloks/core",
+  "name": "bodybloks-core",
   "version": "1.0.0",
   "description": "The bodybloks core components and corresponding types",
   "author": "Henning Rothe <henning@codekollegen.de>",
