@@ -1,0 +1,44 @@
+{
+  "name": "@bodybloks/core",
+  "version": "1.0.0",
+  "description": "The bodybloks core components and corresponding types",
+  "author": {
+    "name": "Henning Rothe",
+    "email": "henning@codekollegen.de"
+  },
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "test": "vitest --coverage --reporter verbose --run --dom -r ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.0",
+    "typescript": "^5.7.2",
+    "webcjs": "^1.1.0",
+    "vitest": "^2.1.8",
+    "@vitest/coverage-v8": "^2.1.8",
+    "happy-dom": "^15.11.7",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2"
+  },
+  "files": [
+    "dist",
+    "src/**/*.d.ts"
+  ],
+  "keywords": [
+    "webcomponent",
+    "typescript",
+    "slots",
+    "command",
+    "protocol",
+    "communication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codekollegen/bodybloks"
+  }
+}
